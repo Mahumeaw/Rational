@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RationalTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-09-16T05:02:44" hostname="MAHUMEAWNB" time="0.016">
+  <properties/>
+  <testcase name="testAdd" classname="RationalTest" time="0.011"/>
+  <testcase name="testSubstract" classname="RationalTest" time="0.001"/>
+  <testcase name="testDevide" classname="RationalTest" time="0.001"/>
+  <testcase name="testMultiply" classname="RationalTest" time="0.001"/>
+  <system-out><![CDATA[Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

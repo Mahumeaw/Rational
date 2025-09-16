@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MahumeawNB" name="RationalTest" skipped="0" tests="4" time="0.06" timestamp="2025-09-16T04:28:33">
+  <properties>
+    <property name="ant.library.dir" value="C:\Users\silsl\AppData\Roaming\JetBrains\IntelliJIdea2024.3\plugins\ant\dist\lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="23" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.class.path" value="C:\Users\silsl\.jdks\openjdk-23.0.2!\java.base;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.compiler;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.datatransfer;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.desktop;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.instrument;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.logging;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.management;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.management.rmi;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.naming;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.net.http;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.prefs;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.rmi;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.scripting;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.se;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.security.jgss;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.security.sasl;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.smartcardio;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.sql;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.sql.rowset;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.transaction.xa;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.xml;C:\Users\silsl\.jdks\openjdk-23.0.2!\java.xml.crypto;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.accessibility;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.attach;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.charsets;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.compiler;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.crypto.cryptoki;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.crypto.ec;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.crypto.mscapi;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.dynalink;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.editpad;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.graal.compiler;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.graal.compiler.management;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.hotspot.agent;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.httpserver;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.incubator.vector;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.internal.ed;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.internal.jvmstat;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.internal.le;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.internal.md;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.internal.opt;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.internal.vm.ci;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jartool;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.javadoc;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jcmd;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jconsole;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jdeps;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jdi;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jdwp.agent;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jfr;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jlink;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jpackage;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jshell;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jsobject;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.jstatd;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.localedata;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.management;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.management.agent;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.management.jfr;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.naming.dns;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.naming.rmi;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.net;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.nio.mapmode;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.sctp;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.security.auth;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.security.jgss;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.unsupported;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.unsupported.desktop;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.xml.dom;C:\Users\silsl\.jdks\openjdk-23.0.2!\jdk.zipfs;C:\Users\silsl\AppData\Roaming\JetBrains\IntelliJIdea2024.3\plugins\ant\dist\ant.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.4.1\lib\idea_rt.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="os.name" value="Windows 11" />
+    <property name="java.vm.specification.version" value="23" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.boot.library.path" value="C:\Users\silsl\.jdks\openjdk-23.0.2\bin" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile C:\Users\silsl\Documents\GitHub\Rational\build.xml test" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\silsl" />
+    <property name="user.language" value="en" />
+    <property name="sun.stderr.encoding" value="UTF-8" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2025-01-21" />
+    <property name="java.home" value="C:\Users\silsl\.jdks\openjdk-23.0.2" />
+    <property name="file.separator" value="\" />
+    <property name="basedir" value="C:\Users\silsl\Documents\GitHub\Rational" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="sun.stdout.encoding" value="UTF-8" />
+    <property name="ant.java.version" value="23" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="23.0.2+7-58" />
+    <property name="user.name" value="silsl" />
+    <property name="ant.file" value="C:\Users\silsl\Documents\GitHub\Rational\build.xml" />
+    <property name="stdout.encoding" value="UTF-8" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\Users\silsl\AppData\Roaming\JetBrains\IntelliJIdea2024.3\plugins\ant\dist\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="C:\Users\silsl\AppData\Local\Temp\" />
+    <property name="java.version" value="23.0.2" />
+    <property name="user.dir" value="C:\Users\silsl\Documents\GitHub\Rational" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Users\silsl\AppData\Roaming\JetBrains\IntelliJIdea2024.3\plugins\ant\dist" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="native.encoding" value="Cp1252" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.14 compiled on August 16 2023" />
+    <property name="java.library.path" value="C:\Users\silsl\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\Hostx64\x64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\gstreamer\1.0\msvc_x86_64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\silsl\AppData\Local\Programs\Python\Launcher\;C:\Users\silsl\AppData\Local\Microsoft\WindowsApps;C:\Users\silsl\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\silsl\AppData\Roaming\npm;C:\Users\silsl\AppData\Local\GitHubDesktop\bin;C:\Users\silsl\AppData\Local\gitkraken\bin;C:\Users\silsl\AppData\Local\Programs\mongosh\;C:\Users\silsl\Documents\Present Study\Mobile\lab11\flutter\bin;C:\Users\silsl\AppData\Local\Microsoft\WindowsApps;C:\Users\silsl\.dotnet\tools;." />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="stderr.encoding" value="UTF-8" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="23.0.2+7-58" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="67.0" />
+  </properties>
+  <testcase classname="RationalTest" name="testAdd" time="0.008" />
+  <testcase classname="RationalTest" name="testSubstract" time="0.0" />
+  <testcase classname="RationalTest" name="testDevide" time="0.002" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
